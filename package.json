@@ -1,0 +1,26 @@
+{
+  "name": "quiz2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "process": "^0.11.10",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
